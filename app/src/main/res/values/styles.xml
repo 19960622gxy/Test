@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+        <!--标题栏颜色-->
+        <item name="colorPrimary">@color/color4</item>
+
+        <!--状态栏颜色-->
+        <item name="colorPrimaryDark">@color/color4</item>
+
+        <!--控件的颜色-->
+        <item name="colorAccent">@color/color4</item>
+    </style>
+
+    <!--侧边栏Item样式-->
+    <style name="menu_item_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:paddingLeft">16dp</item>
+    </style>
+
+    <!--侧边栏Item里面的TextView样式-->
+    <style name="menu_item_textview_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">16dp</item>
+    </style>
+
+
+    <!--侧边栏Item里面的ImageView样式-->
+    <style name="menu_item_imageview_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+</resources>
